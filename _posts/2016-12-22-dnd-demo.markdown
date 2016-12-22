@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Drag and Drop Showcase"
+categories: post
+---
+Check out the [Demo]
+
+Build with [React] and [React-DnD] to showcase a MVP (minimum viable product) for Trello.
+
+[Demo]: https://qincchen.github.io/dnd-demo/
+[React]: https://facebook.github.io/react/
+[React-DnD]: http://gaearon.github.io/react-dnd/
