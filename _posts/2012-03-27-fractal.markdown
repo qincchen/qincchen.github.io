@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Fun with Scala Parallel Collection"
+comments: true
+categories: post
+---
+
+![Mandlebrot](/assets/scalaMS.png)
+
+The above image is the output of the following scala program
+
+<script src="https://gist.github.com/qincchen/7b44d6e6240d159309006ff2cb70304b.js"></script>
+
+It took over 22.811 second to generate 1000 by 1000 fractal image, the max iteration is set at 50000 per pixel. This is without parallelization. So let's introduce parallel processing to the program with one line of change. Made the following change to line 40 to the above code.
+
+```scala
+// Before
+val pms = (0 to n * n).map { (x => computeColor(x / n, x % n)) } // work gets done here
+
+// After
+val pms = (0 to n * n).par.map { (x => computeColor(x / n, x % n)) } // work gets done here
+
+// notice the extra method call par after the list
+```
+
+The new fractal image took only 3.771 second to generate, over 6 fold increase.
+
+![CPU activity](/assets/scala_par_extreme.png)
+
+Notice that all 8 cores of my i7-2600K CPU is pulling its weight. A simple method call `par` after a collection gives you the power of parallelism.
