@@ -4,11 +4,27 @@ title:  "Drag and Drop Showcase"
 comments: true
 categories: post
 ---
-Check out the [Demo] and the [Source]
 
-Build with [React] and [React-DnD] to showcase a MVP (minimum viable product) for Trello.
+#### A simple app demonstrating a drag and drop behavior behind Trello.
+
+------
+
+![demo](/assets/dnd.gif)
+
+------
+
+#### [https://qincchen.github.io/dnd-demo][demo]
+
+------
+
+Check out the [Source]
+
+Build with [React] and [React-DnD]
+
+Bootstrapped with [Create-react-app]
 
 [Source]: https://github.com/qincchen/dnd-demo
 [Demo]: https://qincchen.github.io/dnd-demo/
 [React]: https://facebook.github.io/react/
 [React-DnD]: http://gaearon.github.io/react-dnd/
+[Create-react-app]: https://github.com/facebookincubator/create-react-app
