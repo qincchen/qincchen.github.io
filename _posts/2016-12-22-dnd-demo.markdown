@@ -5,17 +5,13 @@ comments: true
 categories: post
 ---
 
-#### A simple app demonstrating a drag and drop behavior behind Trello.
+A simple app demonstrating a drag and drop behavior behind Trello.
 
-------
-
+<div style="text-align:center" markdown="1">
 ![demo](/assets/dnd.gif)
+</div>
 
-------
-
-#### [https://qincchen.github.io/dnd-demo][demo]
-
-------
+[https://qincchen.github.io/dnd-demo][demo]
 
 Check out the [Source]
 

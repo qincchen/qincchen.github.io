@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, my name is Qin Cheng Chen.  I am a full stack software engineer at [Gilt](https://www.gilt.com).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+This blog is a collection of my projects and ideas.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+The best way to contact me through my [email](mailto:qincchen@gmail.com).
+
+My resume is posted as [Linkedin](https://www.linkedin.com/in/qinchengchen) profile.

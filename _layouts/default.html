@@ -5,15 +5,17 @@
 
   <body>
 
-    {% include header.html %}
+    {% include navbar.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="navbar-offset"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          {{ content }}
+        </div>
       </div>
-    </main>
-
-    {% include footer.html %}
+    </div>
 
     <script id="dsq-count-scr" src="//{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
 

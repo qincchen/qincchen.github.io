@@ -5,7 +5,9 @@ comments: true
 categories: post
 ---
 
+<div style="text-align:center" markdown="1">
 ![Mandlebrot](/assets/scalaMS.png)
+</div>
 
 The above image is the output of the following scala program
 
@@ -25,6 +27,8 @@ val pms = (0 to n * n).par.map { (x => computeColor(x / n, x % n)) } // work get
 
 The new fractal image took only 3.771 second to generate, over 6 fold increase.
 
+<div style="text-align:center" markdown="1">
 ![CPU activity](/assets/scala_par_extreme.png)
+</div>
 
 Notice that all 8 cores of my i7-2600K CPU is pulling its weight. A simple method call `par` after a collection gives you the power of parallelism.
